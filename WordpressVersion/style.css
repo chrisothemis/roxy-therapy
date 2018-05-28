@@ -1,0 +1,148 @@
+/*
+    Theme Name: Roxy Theme
+    Author: Chrisothemis
+    Author URI: 
+    Description: Website made for my best pal
+    Version: 1.0
+*/
+
+
+body {
+	min-height: 100vh;
+	background: url("background.jpg");
+	background-size: cover;
+	background-position: center; 
+	font-family: Lato; 
+}
+
+.flex-grow {
+	flex: 1;
+ }
+ 
+
+a {
+	text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding-top: 1em;
+    margin-right: 2em;
+    display: inline;
+    list-style-type: none;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+	color: white;
+	text-shadow: 0px 4px 3px rgba(255,255,255,0.4),
+                 0px 8px 13px rgba(255,255,255,0.1),
+				 0px 18px 23px rgba(255,255,255,0.1);
+}
+
+
+.navbar-light .navbar-brand {
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+	position: fixed;
+	left: 0;
+}
+
+.navbar-light {
+  border: 1px solid transparent;
+  background-color: rgba(0, 152, 153, 0.5);
+}
+
+.container-fluid {
+	max-width: 80%;
+	overflow: hidden;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+	background-color: rgba(0, 152, 153, 0.5);
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/*================================PRICES========================*/
+
+table {
+	width:100%;
+}
+
+tr:nth-child(even) {background: rgba(0, 152, 153, 0.5); color: white;}
+tr:nth-child(odd) {background: transparent;}
+
+/*================================EXERCISES========================*/
+
+.media {
+	border-bottom: 1px solid rgba(0, 152, 153, 0.5);
+	padding: 1rem 0;
+}
+
+.media:last-child {
+	border-bottom: none;
+}
+
+
+.sidecat {
+list-style: none;
+color: white;
+background: rgba(0, 152, 153, 0.5);
+width: 200px;
+padding: 1em;
+border-radius: 3%;
+}
+
+.cat-item {
+	list-style: none;
+	
+}
+
+.cat-item a{
+	color: white;
+	text-decoration: none;
+}
+
+.size-singleimg {
+	width: 30%;
+	height: auto;
+}
+
+.page-item.active .page-link {
+	background-color: rgba(0, 152, 153, 0.5);
+	border-color: rgba(0, 152, 153, 0.5);
+}
+
+.page-link {
+	color: rgba(0, 152, 153, 0.5);
+}
+
+
+
+
+/* Media Query
+
+
+/* BS4 pagination */
+
+
+@media screen and (max-width: 575px) {
+	.ft-wpbs .page-link {
+		font-size: .7rem;
+		padding: .3rem .45rem;
+	}
+}
+
+
